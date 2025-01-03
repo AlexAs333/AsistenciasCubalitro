@@ -1,4 +1,3 @@
-// Leer archivo data.txt y procesarlo
 fetch('data.txt')
     .then(response => response.text())
     .then(data => {
@@ -11,7 +10,7 @@ fetch('data.txt')
             const total = parseInt(asistencias) + parseInt(faltas) + parseInt(justificados);
             const porcentaje = total > 0 
                 ? ((parseInt(asistencias) / total) * 100).toFixed(2) 
-                : 0; // Manejo de casos con total 0
+                : 0; // Si el total es 0, asignar porcentaje como 0
             return { 
                 nombre, 
                 asistencias: parseInt(asistencias), 
@@ -26,7 +25,7 @@ fetch('data.txt')
 
         // Renderizar la tabla
         const tableBody = document.querySelector('#asistenciasTable tbody');
-        tableBody.innerHTML = ''; // Limpiar cualquier contenido previo
+        tableBody.innerHTML = ''; // Limpiar la tabla antes de llenarla
 
         parsedData.forEach(({ nombre, asistencias, faltas, justificados, porcentaje }) => {
             const row = document.createElement('tr');
