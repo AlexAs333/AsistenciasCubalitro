@@ -1,0 +1,12 @@
+Alex;1;0;0
+Vasco;1;0;0
+Isa;1;0;0
+Marta;1;0;0
+Jueza;0;0;0
+Rocio;1;0;0
+Burunat;1;0;0
+Bruno;0;0;0
+Puyo;1;0;0
+Rober;1;0;0
+Tello;1;0;0
+Carmen;0;0;0
