@@ -1,12 +1,17 @@
-Alex;1;0;0
-Vasco;1;0;0
-Isa;1;0;0
-Marta;1;0;0
-Jueza;0;0;0
-Rocio;1;0;0
-Burunat;1;0;0
-Bruno;0;0;0
-Puyo;1;0;0
-Rober;1;0;0
-Tello;1;0;0
-Carmen;0;0;0
+3
+Alex;2;1
+Vasco;1;0
+Isa;3;0
+Marta;3;0
+Jueza;0;2
+Rocio;1;0
+Burunat;3;0
+Bruno;1;1
+Puyo;3;0
+Rober;3;0
+Tello;3;0
+Carmen;1;0
+
+//1 quedada --> Nochevieja
+//2 quedada --> partido + cum burunat (Justificados los que viven fuera)
+//3 quedada --> cum isa (Justificada la jueza)

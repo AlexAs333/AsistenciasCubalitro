@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -5,9 +6,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    font-family: "Lucida Handwriting", cursive;
+    color: #820be3;
 }
 
+/* Estilos para la tabla */
 table {
     margin: 0 auto;
     border-collapse: collapse;
@@ -30,4 +33,25 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #f1f1f1;
+}
+
+/* Estilos para las posiciones */
+.gold {
+    background-color: gold !important;
+    font-weight: bold;
+}
+
+.silver {
+    background-color: silver !important;
+    font-weight: bold;
+}
+
+.bronze {
+    background-color: #cd7f32 !important;
+    font-weight: bold;
+}
+
+/* Últimos puestos en rojo */
+.red {
+    background-color: #ffdada !important;
 }
