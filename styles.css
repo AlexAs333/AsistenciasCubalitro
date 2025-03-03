@@ -69,7 +69,7 @@ tr:hover {
 
     th, td {
         padding: 6px; /* Reducir el padding para pantallas pequeñas */
-        font-size: 14px; /* Ajustar el tamaño de la fuente */
+        font-size: 10px; /* Ajustar el tamaño de la fuente */
     }
 
     h1 {
