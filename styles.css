@@ -5,6 +5,7 @@ body {
     text-align: center;
 }
 
+/* Estilo para el título */
 h1 {
     font-family: "Lucida Handwriting", cursive;
     color: #820be3;
@@ -54,4 +55,40 @@ tr:hover {
 /* Últimos puestos en rojo */
 .red {
     background-color: #ffdada !important;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    table {
+        width: 100%; /* Hacer la tabla ocupar todo el ancho en móvil */
+    }
+
+    th, td {
+        padding: 6px; /* Reducir el padding para pantallas pequeñas */
+        font-size: 14px; /* Ajustar el tamaño de la fuente */
+    }
+
+    h1 {
+        font-size: 24px; /* Reducir el tamaño del título en móvil */
+    }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media screen and (min-width: 769px) {
+    table {
+        width: 80%; /* Mantener el ancho de la tabla en escritorio */
+    }
+
+    th, td {
+        padding: 8px; /* Mantener el padding estándar */
+        font-size: 16px; /* Tamaño de fuente adecuado para escritorio */
+    }
+
+    h1 {
+        font-size: 32px; /* Título más grande en pantallas grandes */
+    }
 }
